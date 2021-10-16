@@ -14,10 +14,9 @@ const HatsPage = ()=>(
 function App() {
   return (
     <div className="App">
-     <Homepage/>
         <Switch>
             <Route exact path='/' component={Homepage} />
-            <Route exact path='/shop/hats' component={HatsPage} />
+            <Route path='/shop/hats' component={HatsPage} />
         </Switch>
     </div>
   );
