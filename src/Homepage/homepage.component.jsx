@@ -1,12 +1,10 @@
 import React from "react";
 import './homepage.styles.scss'
-import MenuItem from "../components/MenuItem/menu-item.component";
+import Directory from '../components/Directory/directory.component'
 
 const Homepage = () => (
   <div className="homepage">
-    <div className="directory-menu">
-      <menu-item title="Fibo Wey" ></menu-item>
-    </div>
+    <Directory />
   </div>
 );
 
